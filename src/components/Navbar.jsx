@@ -12,7 +12,7 @@ function Navbar() {
     const [open, setOpen] = useState(false);
     const pathname = window.location.pathname;
     return (
-        <nav className="sticky top-0 z-50 border-b bg-background/90 backdrop-blur-md">
+        <nav className="sticky top-0 z-50 border-b border-gray-300 bg-[#f7f5f1] backdrop-blur-md">
             <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
                 <Link to="/" className="flex items-center gap-2 text-xl font-bold text-primary">
                     <Leaf className="h-6 w-6" />
@@ -34,7 +34,7 @@ function Navbar() {
                 </div>
 
                 {/* Mobile toggle */}
-                <button variant="ghost" size="icon" className="md:hidden" onClick={() => setOpen(!open)}>
+                <button className="md:hidden" onClick={() => setOpen(!open)}>
                     {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 </button>
             </div>

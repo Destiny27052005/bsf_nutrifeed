@@ -8,8 +8,6 @@ function App() {
 
   return (
     <>
-      <h1>Bsf_nutrifeed</h1>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />

@@ -21,7 +21,7 @@ function AddData() {
     }
 
     return (
-        <div className="min-h-screen bg-[#f7f5f0] py-10">
+        <div className="min-h-screen bg-[#f7f5f0] py-10 px-4">
             <div className="mx-auto max-w-2xl px-4 py-8 rounded-lg shadow bg-white">
                 <h1 className="mb-2 text-3xl font-bold">Add Farm Data</h1>
                 <p className="mb-8">Record your feed production data to track and optimize farm performance.</p>

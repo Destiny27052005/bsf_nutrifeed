@@ -1,4 +1,8 @@
 import { Routes, Route } from "react-router-dom"
+import Home from "./Pages/Home"
+import Dashboard from "./Pages/Dashboard"
+import AddData from "./Pages/AddData"
+import NotFound from "./Pages/NotFound"
 
 function App() {
 

@@ -6,16 +6,16 @@ const alerts = [
 ];
 
 function AlertCard() {
-    return ( 
-         <div>
-          <div>
-            <h3>Alerts & Notifications</h3>
-          </div>
-          <div className="space-y-3">
-            {alerts.map((a) => <AlertItemCard key={a.id} alert={a} />)}
-          </div>
-        </div>
-     );
+  return (
+    <div className="bg-[#faf9f7] rounded border border-gray-300 px-2 py-4">
+      <div>
+        <h3 className="my-3">Alerts & Notifications</h3>
+      </div>
+      <div className="space-y-3">
+        {alerts.map((a) => <AlertItemCard key={a.id} alert={a} />)}
+      </div>
+    </div>
+  );
 }
 
 export default AlertCard;

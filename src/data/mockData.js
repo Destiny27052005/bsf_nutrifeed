@@ -1,11 +1,11 @@
-export const dashboardMetrics = [
+export const metrics = [
     { label: "Total Feed Produced", value: "1,240 kg", change: "+12%", trend: "up", icon: "package" },
     { label: "Active Batches", value: "8", change: "+2", trend: "up", icon: "layers" },
     { label: "Flock Size", value: "350", change: "+25", trend: "up", icon: "bird" },
     { label: "Cost Savings", value: "$420", change: "+18%", trend: "up", icon: "trending-down" },
 ];
 
-export const weeklyProduction= [
+export const production= [
     { week: "Week 1", produced: 140, target: 160 },
     { week: "Week 2", produced: 165, target: 160 },
     { week: "Week 3", produced: 180, target: 180 },

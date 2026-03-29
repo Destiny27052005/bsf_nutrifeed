@@ -14,7 +14,7 @@ const production = [
 function Chart() {
     return (
             //  Chart container with title 
-        <div className="rounded-lg border p-4 lg:col-span-2">
+        <div className="rounded-lg border p-4 lg:col-span-2 bg-[#faf9f7] border-gray-300">
                 <div className="mb-4">
                     <h2>Weekly Feed Production</h2>
                 </div>

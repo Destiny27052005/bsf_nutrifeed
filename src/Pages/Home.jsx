@@ -1,3 +1,4 @@
+import Benefits from "../components/Benefits";
 import HeroSection from "../components/HeroSection";
 import Product from "../components/Product";
 
@@ -6,6 +7,7 @@ function Home() {
         <div>
             <HeroSection />
             <Product />
+            <Benefits />
         </div>
     );
 }

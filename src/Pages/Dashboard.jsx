@@ -17,8 +17,10 @@ function Dashboard() {
             <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 {metrics?.map((m) => <MetricCard key={m.label} metric={m} />)}
             </div>
+            <div className="grid gap-6 lg:grid-cols-3">
             <Chart />
             <AlertCard />
+            </div>
         </div>
 
     );

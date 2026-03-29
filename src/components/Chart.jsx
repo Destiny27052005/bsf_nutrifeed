@@ -10,13 +10,13 @@ const production = [
     { week: "Week 7", produced: 190, target: 200 },
 ];
 
+
 function Chart() {
     return (
-        <div className="grid gap-6 lg:grid-cols-3">
-            {/* Chart */}
-            <div className="lg:col-span-2">
-                <div>
-                    <h1>Weekly Feed Production</h1>
+            //  Chart container with title 
+        <div className="rounded-lg border p-4 lg:col-span-2">
+                <div className="mb-4">
+                    <h2>Weekly Feed Production</h2>
                 </div>
                 <div>
                     {(
@@ -39,7 +39,6 @@ function Chart() {
                         </ResponsiveContainer>
                     )}
                 </div>
-            </div>
         </div>
     );
 }

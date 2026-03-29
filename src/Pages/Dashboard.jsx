@@ -1,3 +1,4 @@
+import Chart from "../components/Chart";
 import MetricCard from "../components/MetricCard";
 
  const metrics = [
@@ -15,6 +16,7 @@ function Dashboard() {
             <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {metrics?.map((m) => <MetricCard key={m.label} metric={m} />)}
             </div>
+            <Chart />
         </div>
 
     );

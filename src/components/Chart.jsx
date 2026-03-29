@@ -15,9 +15,9 @@ function Chart() {
         <div className="grid gap-6 lg:grid-cols-3">
             {/* Chart */}
             <div className="lg:col-span-2">
-                <CardHeader>
-                    <CardTitle>Weekly Feed Production</CardTitle>
-                </CardHeader>
+                <div>
+                    <h1>Weekly Feed Production</h1>
+                </div>
                 <div>
                     {(
                         <ResponsiveContainer width="100%" height={280}>

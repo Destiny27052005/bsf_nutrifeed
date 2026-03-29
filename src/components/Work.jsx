@@ -15,7 +15,7 @@ function Work() {
                 <div className="grid gap-8 sm:grid-cols-3">
                     {steps.map((s, i) => (
                         <div key={s.title} className="relative text-center bg-white rounded-lg p-6 shadow-md">
-                            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full">
+                            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-[#246b3e] text-white">
                                 <s.icon className="h-9 w-9" />
                             </div>
                             <span className="mb-2 block text-sm font-bold">Step {i + 1}</span>

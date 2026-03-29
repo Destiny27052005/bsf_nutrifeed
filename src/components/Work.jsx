@@ -9,18 +9,18 @@ const steps = [
 
 function Work() {
     return (
-        <section className="px-4 py-16 md:py-24">
+        <section className="px-4 py-16 md:py-24 bg-[#f8f6f1]">
             <div className="mx-auto max-w-5xl">
                 <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">How It Works</h2>
                 <div className="grid gap-8 sm:grid-cols-3">
                     {steps.map((s, i) => (
-                        <div key={s.title} className="relative text-center">
+                        <div key={s.title} className="relative text-center bg-white rounded-lg p-6 shadow-md">
                             <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full">
                                 <s.icon className="h-9 w-9" />
                             </div>
                             <span className="mb-2 block text-sm font-bold">Step {i + 1}</span>
                             <h3 className="mb-2 text-lg font-bold">{s.title}</h3>
-                            <p className="text-sm">{s.description}</p>
+                            <p className="text-sm text-gray-500">{s.description}</p>
                         </div>
                     ))}
                 </div>

@@ -1,11 +1,13 @@
 import HeroSection from "../components/HeroSection";
+import Product from "../components/Product";
 
 function Home() {
-    return ( 
+    return (
         <div>
-            <HeroSection/>
+            <HeroSection />
+            <Product />
         </div>
-     );
+    );
 }
 
 export default Home;

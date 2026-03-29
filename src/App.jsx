@@ -3,6 +3,7 @@ import Home from "./Pages/Home"
 import Dashboard from "./Pages/Dashboard"
 import AddData from "./Pages/AddData"
 import NotFound from "./Pages/NotFound"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/add-data" element={<AddData />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   )
 }

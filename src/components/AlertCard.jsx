@@ -1,4 +1,4 @@
-
+import AlertItemCard from "./AlertItemCard";
 const alerts = [
   { id: "1", message: "Batch #12 is ready for harvest", type: "success", time: "2 hours ago" },
   { id: "2", message: "Larvae stock running low — reorder soon", type: "warning", time: "5 hours ago" },
@@ -12,7 +12,7 @@ function AlertCard() {
             <h3>Alerts & Notifications</h3>
           </div>
           <div className="space-y-3">
-            {alerts?.map((a) => <AlertItemCard key={a.id} alert={a} />)}
+            {alerts.map((a) => <AlertItemCard key={a.id} alert={a} />)}
           </div>
         </div>
      );

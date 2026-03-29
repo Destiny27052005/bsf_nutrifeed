@@ -4,11 +4,13 @@ import Dashboard from "./Pages/Dashboard"
 import AddData from "./Pages/AddData"
 import NotFound from "./Pages/NotFound"
 import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />

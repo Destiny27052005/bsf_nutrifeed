@@ -1,6 +1,7 @@
 import Benefits from "../components/Benefits";
 import HeroSection from "../components/HeroSection";
 import Product from "../components/Product";
+import Work from "../components/Work";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <HeroSection />
             <Product />
             <Benefits />
+            <Work />
         </div>
     );
 }

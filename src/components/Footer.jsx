@@ -1,4 +1,4 @@
-
+import { Leaf } from "lucide-react";
 
 function Footer() {
     return (

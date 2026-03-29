@@ -1,14 +1,5 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
-
-const production = [
-    { week: "Week 1", produced: 140, target: 160 },
-    { week: "Week 2", produced: 165, target: 160 },
-    { week: "Week 3", produced: 180, target: 180 },
-    { week: "Week 4", produced: 155, target: 180 },
-    { week: "Week 5", produced: 200, target: 200 },
-    { week: "Week 6", produced: 210, target: 200 },
-    { week: "Week 7", produced: 190, target: 200 },
-];
+import { production } from "../data/mockData";
 
 
 function Chart() {
